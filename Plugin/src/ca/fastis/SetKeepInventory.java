@@ -10,7 +10,7 @@ public class SetKeepInventory implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command arg1, String arg2, String[] arg3) {
 		if(sender instanceof Player) {
-			sender.sendMessage("Welcome home");
+			sender.sendMessage("Welcome BROTHER home");
 			PollitaPlugin.doPlayersKeepInv = (PollitaPlugin.doPlayersKeepInv == true) ? false : true;
 			return true;
 		}
