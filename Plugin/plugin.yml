@@ -1,0 +1,5 @@
+name: PollitaPlugin
+main: ca.fastis.PollitaPlugin
+version: 1.0
+author: PollitaEllie
+api-version: 1.14
